@@ -11,7 +11,7 @@ class Product(models.Model):
     title = models.CharField(max_length=250)
     price = models.DecimalField(decimal_places=2, max_digits=10, null=True, blank=True)
     quantity = models.IntegerField(default=10)
-    image = models.ImageField(upload_to='product_pics', blank=True, null=True)
+    image = models.ImageField(upload_to='product_pics', default='product_pics/box.png')
 
 
 

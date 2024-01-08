@@ -32,6 +32,11 @@ class CartItem(models.Model):
     quantity = models.IntegerField(default=1)
 
 
+class AprioriResults(models.Model):
+    antecedents	= models.CharField(max_length=250)
+    consequents = models.CharField(max_length=250)
+
+
 
 
  

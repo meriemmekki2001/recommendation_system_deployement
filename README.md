@@ -1,0 +1,1 @@
+This is a Machine Learning academic mini project, through this project we explored the concepts of association rule mining and we used the apriori algoithm to develop a recommender system for market basket analysis, we used DRF for deployment. 
